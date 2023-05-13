@@ -1,0 +1,15 @@
+.link-element,
+.link-element:link,
+.link-element:visited {
+  display: block;
+  text-decoration: none;
+  color: $text-dark;
+  font-weight: $fw-regular;
+  font-size: $fs-base;
+  transition: all 0.3s ease 0s;
+
+  &:hover,
+  &:active {
+    color: $secondary-light;
+  }
+}
